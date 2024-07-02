@@ -20,7 +20,9 @@ A portfolio made on react using three js (react-three fiber), based on the solar
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](./docimg/cap1.png)
+![App Screenshot](./docimg/iph12pro.png)
+![App Screenshot](./docimg/skills.png)
 
 
 ## Features
