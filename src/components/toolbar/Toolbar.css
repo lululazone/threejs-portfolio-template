@@ -1,0 +1,46 @@
+
+
+.p-toolbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.p-toolbar h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.p-toolbar button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.p-toolbar button:hover{
+    color: aqua;
+    scale: 1.1;
+}
+
+@media screen and (max-width: 768px){
+    .p-toolbar h1{
+        font-size: 2rem;
+    }
+
+    .p-toolbar button{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .p-toolbar h1{
+        font-size: 1.5rem;
+    }
+
+    .p-toolbar button{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,27 @@
+
+.details {
+    height: 100vh;
+    background-color: black; /* Utilise un fond semi-transparent pour que le texte soit lisible */
+    text-align: center;
+    transition: opacity 0.5s ease-in-out; /* Transition pour l'opacité */
+    opacity: 1;
+    color: white; /* Définit la couleur du texte pour qu'il soit lisible sur le fond clair */
+    visibility: visible;
+}
+
+.details h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 5%;
+}
+
+.card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    border-radius: 12px;
+}

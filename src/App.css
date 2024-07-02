@@ -1,0 +1,55 @@
+/* src/App.css */
+.App {
+    text-align: center; /* Ajuste l'image de fond pour qu'elle couvre toute la page */
+    background-position: center;
+}
+
+
+header {
+    text-align: center;
+    font-size: 1.5em;
+
+
+}
+
+.details {
+    height: 100vh;
+    background-color: black; /* Utilise un fond semi-transparent pour que le texte soit lisible */
+    text-align: center;
+    transition: opacity 0.5s ease-in-out; /* Transition pour l'opacité */
+    opacity: 1;
+    color: white; /* Définit la couleur du texte pour qu'il soit lisible sur le fond clair */
+    visibility: visible;
+
+}
+
+
+canvas {
+    width: 100%;
+    height: 90vh; /* Ajustement de la hauteur pour tenir compte du header */
+}
+
+
+
+.scene{
+    width: auto;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.button {
+    background-color: transparent; /* Green */
+    border: 4px solid #00eeff;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
