@@ -49,4 +49,17 @@ Install the app with npm
   npm install
 
 ```
+
+## Related
+
+I highly suggest you to read docs of technology used in this project: 
+
+[Threejs documentation](https://threejs.org/docs/index.html#manual/en/)
+
+[React Three Fiber documentation](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+
+[Primereact documentation](https://primereact.org/installation/)
+
+[Mailjs documentation](https://www.emailjs.com/docs/)
+
     
